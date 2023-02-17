@@ -24,5 +24,8 @@ assert 47 "5+6*7"
 assert 15 "5*(9-6)"
 assert 4 "(3+5)/2"
 assert 15 "-3*+5*-1"
+assert 1 "- 4+10 == 2 * 3"
+assert 0 "1 < 0"
+assert 1 "1 > 0"
 
 echo OK
